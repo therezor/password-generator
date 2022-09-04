@@ -8,8 +8,8 @@ return <<<ENDOFVIEW
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a responsive product landing page.">
     <title>Password Generator. Strong and memorable passwords.</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="/pure-min.css">
+    <link rel="stylesheet" href="/grids-responsive-min.css">
     <link rel="stylesheet" href="/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
