@@ -6,7 +6,7 @@ use Controllers\MainController;
 use Leaf\App;
 
 $app = new App([
-    'debug' => true,
+    'debug' => false,
 ]);
 
 $app->get('/', MainController::class . '@index');
