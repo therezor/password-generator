@@ -138,15 +138,17 @@ return <<<ENDOFVIEW
     </div>
 
     <div class="ribbon l-box-lrg">
-        <h2 class="content-head content-head-ribbon">We respect your privacy</h2>
-
-        <p>
-        Passwords never saved, etc... text
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor.
-        </p>
+        <div class="content">
+            <h2 class="content-head content-head-ribbon">We respect your privacy</h2>
+    
+            <p>
+            Passwords never saved, etc... text
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor.
+            </p>
+        </div>
     </div>
 
     <div class="content">
