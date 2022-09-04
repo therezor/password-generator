@@ -1,0 +1,13 @@
+{
+    "require": {
+        "leafs/leaf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "classmap": [
+        "src/"
+    ]
+}
