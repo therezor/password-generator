@@ -6,7 +6,7 @@ return <<<ENDOFVIEW
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <meta name="description" content="Everyone knows they should use strong and unique passwords, but it's tough to memorize them all.  Memorable password generator lets you easily create secure, unique and strong passwords for each site.">
     <title>Password Generator. Strong and memorable passwords.</title>
     <link rel="stylesheet" href="/pure-min.css">
     <link rel="stylesheet" href="/grids-responsive-min.css">
