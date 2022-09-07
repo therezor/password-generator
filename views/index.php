@@ -20,7 +20,7 @@ return <<<ENDOFVIEW
 <body>
 <div class="splash-container">
     <div class="splash">
-        <h1 class="splash-head">Strong and memorable password generator</h1>
+        <h1 class="splash-head">Memorable Password Generator</h1>
         <form id="generate-password" class="pure-form"
               onsubmit="event.preventDefault();generatePassword();return false;">
             <div class="pure-g">
@@ -57,7 +57,8 @@ return <<<ENDOFVIEW
                     <label for="words">Word count</label>
                     <div class="pure-slider">
                         <div class="pure-g">
-                            <input id="words" name="words" class="pure-input-1" form="generate-password" type="range" min="2" max="9" step="1" value="3">
+                            <input id="words" name="words" class="pure-input-1" form="generate-password" type="range"
+                                   min="2" max="9" step="1" value="3">
                             <div id="words-value" class="pure-value"></div>
                         </div>
                     </div>
@@ -65,8 +66,8 @@ return <<<ENDOFVIEW
                 <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                     <label for="separator">Separator</label>
                     <select id="separator" class="pure-input-1" name="separator" form="generate-password">
-                        <option value="" selected></option>
-                        <option value="-">-</option>
+                        <option value=""></option>
+                        <option value="-" selected>-</option>
                         <option value=",">,</option>
                         <option value=".">.</option>
                         <option value="|">|</option>
@@ -97,41 +98,55 @@ return <<<ENDOFVIEW
         </div>
 
         <div class="l-box">
-             <h2 class="content-head is-center">The most secure password generator that are memorable</h2>
-             <p>
-                Everyone knows they should use strong and unique passwords, but it's tough to memorize them all. PasswordMaker lets you easily create secure passwords using a master password, then generate unique and strong passwords for each site.
-             </p>
+            <h2 class="content-head is-center">The most secure password generator that are memorable</h2>
+            <p>
+                Everyone knows they should use strong and unique passwords, but it's tough to memorize them all.
+                Memorable password generator lets you easily create secure, unique and strong passwords for each site.
+            </p>
         </div>
-        
+
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-               <h3 class="content-subhead">Strong and secure algorithm</h3>
+                <h3 class="content-subhead">Strong and Secure Algorithm </h3>
                 <p>
-                    A strong password is the first line of defense against a digital intrusion. Our cryptographically secure algorithm is designed to create a password that are too difficult for hackers to crack.
+                    If you are someone who has trouble coming up with passwords that are both strong and easy to
+                    remember, then the Memorable Password Generator is the perfect solution for you. This tool creates
+                    passwords that are both random and complex, making them difficult to guess or hack. Simply enter the
+                    desired word count, letters, numbers, and symbols you need, and then it will do the rest.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                   Easy to remember
+                    Easy to Remember
                 </h3>
                 <p>
-                   The key to making most secure password is length. Making passwords more than seven characters makes them too hard to remember. Our algorithm generates new passwords you'll never forget.
+                    When it comes to creating passwords, most people opt for something that is easy to remember.
+                    However, these passwords are often not very secure. A better option is to use a memorable password
+                    generator. This will create a password that is both easy to remember and more secure than a regular
+                    random character set.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                    Add text here
+                    Fit Anywhere
                 </h3>
                 <p>
-                     Add text here Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    The password generator is a tool that helps create strong, unique passwords for different websites,
+                    applications, and devices. Some people use the same password for everything, which is not secure. If
+                    one account is hacked, all the others are vulnerable as well. By using unique passwords for every
+                    device and application you have you can mitigate the chance of being hacked.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
-                     Add text here
+                    Strong Secure Random
                 </h3>
                 <p>
-                     Add text here Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    Our password generator generates long, random passwords that are difficult to crack.
+                <ol>
+                    <li>Generated passwords are never saved</li>
+                    <li>An infinite amount of time would be required for someone to break your password</li>
+                </ol>
                 </p>
             </div>
         </div>
@@ -139,39 +154,99 @@ return <<<ENDOFVIEW
 
     <div class="ribbon l-box-lrg">
         <div class="content">
-            <h2 class="content-head content-head-ribbon">We respect your privacy</h2>
-    
+            <h2 class="content-head content-head-ribbon">We Respect Your Privacy</h2>
+
             <p>
-            Passwords never saved, etc... text
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor.
+                At Memorable Password Generator, we respect your privacy. We understand that you may have concerns about
+                how your personal information is used and shared, and we are committed to protecting your privacy.
+            </p>
+            <p>
+                Here are some of the ways we respect your privacy:
+            <ul>
+                <li>
+                    The password is random and never saved by the tool, so if the password is not copied or saved by you
+                    it can not be recovered
+                </li>
+                <li>
+                    None of the information you input is gathered
+                </li>
+                <li>
+                    We do not use cookies on this website
+                </li>
+            </ul>
             </p>
         </div>
     </div>
 
     <div class="content">
-        <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+        <h2 class="content-head is-center">Frequently Asked Questions</h2>
         <div class="l-box-lrg">
-            <h4>Some question?</h4>
+            <h4>Why Should I Use Memorable Password Generator?</h4>
             <p>
-                Answer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
+                The Memorable Password Generator website is here to help you create strong, memorable passwords! No more
+                worries about forgetting your login information - this site will make sure you have a password that's
+                both easy to remember and difficult to crack. The site offers a variety of features that make it easy
+                for users to create unique passwords that will be difficult for hackers to guess. You can choose from a
+                variety of different characters and symbols to create a password that's totally secure.
             </p>
+            <br>
 
-            <h4>Some more question?</h4>
+            <h4> How does the Memorable Password Generator Work?</h4>
             <p>
-                Answer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+                When you visit the Memorable Password Generator website, you'll see a simple form. To create a password,
+                all you need to do is enter a few pieces of information. First, choose how long you want your password
+                to be. Then, select which characters you want to use in your password. You can choose from lowercase
+                letters, uppercase letters, numbers, and special characters. Finally, click the "Generate Password"
+                button.
+            </p>
+            <p>
+                Once you've clicked the button, a random password will be generated for you. This password will be made
+                up of the characters that you selected. If you're happy with the password, simply copy it and paste it
+                into whatever text field you need it for. If not, just click the "Generate Password" button again and a
+                new password will be created.
+            </p>
+            <br>
+
+            <h4>Can I use this tool only on the web browser?</h4>
+            <p>
+                The tool is designed to work on the web browser and doesn’t require any installation. You can generate
+                passwords on any device with a web browser including your computer, phone, or tablet.
+            </p>
+            <br>
+
+            <h4>What are the Password Security Risks to a Business or Corporation?</h4>
+            <p>
+                According to a recent study, nearly 60% of corporate users have easy-to-guess passwords. This is a
+                serious security risk for companies, as easy passwords can be easily guessed by hackers.
+            </p>
+            <p>
+                There are a few reasons why corporate users might have easy passwords. First, many people simply choose
+                passwords that are easy to remember, without thinking about the security risks.
+            </p>
+            <p>
+                This is a serious problem because it means that hackers can easily gain access to corporate networks.
+                Once they're in, they can wreak havoc on the system, stealing sensitive data or planting malware.
+            </p>
+            <br>
+
+            <h4>Is Memorable Password Generator Free?</h4>
+            <p>
+                The Password Generator is completely free. And if you need more than one, it can generate as many as you
+                like for all your devices and online applications.
+            </p>
+            <br>
+
+            <h4>How many passwords can I generate?</h4>
+            <p>
+                You can generate as many passwords as you want with this tool. There is no limit to the number of
+                passwords that you can create. This tool can help you create strong, unique passwords that are difficult
+                to guess.
             </p>
         </div>
     </div>
 
     <div class="footer l-box is-center">
-        Copyright notice
+        Memorable password generator © 2022
     </div>
 </div>
 </body>
