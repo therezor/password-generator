@@ -6,8 +6,8 @@ return <<<ENDOFVIEW
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Most advanced password generator that is completely free. Memorable password generator lets you easily create secure, unique and strong passwords for each site.">
-    <title>OMG! The Best Memorable Password Generator ever</title>
+    <meta name="description" content="The Best Memorable Password Generator ever that is completely free. Easily create secure, unique and strong passwords in no time.">
+    <title>🔐The Best Memorable Password Generator ever!</title>
     <link rel="stylesheet" href="/pure-min.css">
     <link rel="stylesheet" href="/grids-responsive-min.css">
     <link rel="stylesheet" href="/styles.css">
@@ -107,7 +107,7 @@ return <<<ENDOFVIEW
 
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">Strong and Secure Algorithm </h3>
+                <h3 class="content-subhead">Strong and Secure Algorithm</h3>
                 <p>
                     If you are someone who has trouble coming up with passwords that are both strong and easy to
                     remember, then the Memorable Password Generator is the perfect solution for you. This tool creates
