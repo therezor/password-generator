@@ -7,7 +7,7 @@ return <<<ENDOFVIEW
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Best Memorable Password Generator ever that is completely free. Easily create secure, unique and strong passwords in no time.">
-    <title>🔐The Best Memorable Password Generator ever!</title>
+    <title>🔐 The Best Memorable Password Generator ever!</title>
     <link rel="stylesheet" href="/pure-min.css">
     <link rel="stylesheet" href="/grids-responsive-min.css">
     <link rel="stylesheet" href="/styles.css">
