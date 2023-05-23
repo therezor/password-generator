@@ -251,6 +251,24 @@ return <<<ENDOFVIEW
                 passwords that you can create. This tool can help you create strong, unique passwords that are difficult
                 to guess.
             </p>
+            
+            <h4>How can I check the strength of my passwords?</h4>
+            <p>
+               To check the strength of your passwords and ensure they meet the necessary security requirements, 
+               you can use the <a href="https://sitescan.pro/password-strength-checker" target="_blank">Password Strength Checker tool</a>. 
+               This tool analyzes your password based on various criteria such as length, complexity, and uniqueness.
+            </p>
+            
+            <h4>How can I regain access to my WordPress website?</h4>
+            <p>
+                If you find yourself locked out of your WordPress account because you forgot your password, 
+                you can use the <a href="https://sitescan.pro/wordpress-password-generator" target="_blank">WordPress Password Generator</a> to create a new password.
+            </p>
+            
+            <h4>How can I generate a regular password?</h4>
+            <p>
+                You can generate a regular password using the <a href="https://sitescan.pro/password-generator" target="_blank">Password Generator</a> tool.
+            </p>
         </div>
     </div>
 
