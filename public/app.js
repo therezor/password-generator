@@ -37,7 +37,16 @@ function fetchDictionary(url) {
 }
 
 function randomNumber(from, to) {
-    return Math.floor(Math.random() * (to - from + 1)) + from;
+    const range = to - from + 1;
+    const buffer = new Uint32Array(1);
+
+    if (range <= 0) {
+        throw new Error('Invalid range');
+    }
+
+    window.crypto.getRandomValues(buffer);
+    const randomValue = buffer[0] / (0xffffffff + 1);
+    return Math.floor(randomValue * range) + from;
 }
 
 function capitalize(word) {
@@ -47,7 +56,6 @@ function capitalize(word) {
 async function generateAndDisplayPassword() {
     try {
         const dictionary = await fetchDictionary('/dictionaries/corncob_lowercase.txt');
-console.log(dictionary);
         const words = parseInt(document.getElementById('words').value);
         const separator = document.getElementById('separator').value;
         const caps = document.getElementById('caps').checked;
