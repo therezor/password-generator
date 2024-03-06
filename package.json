@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@picocss/pico": "^2.0.6",
+    "autoprefixer": "^10.4.14",
+    "node-sass": "^9.0.0",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^10.1.0",
+    "postcss-scss": "^4.0.9"
+  },
+  "scripts": {
+    "build": "npx sass --style=compressed --load-path=node_modules css/main.scss public/css/main.css"
+  }
+}

@@ -1,39 +1,41 @@
-FROM php:8.1-fpm
+FROM php:8.2-fpm
 
-RUN apt-get update && apt-get install -y mc wget curl git libfreetype6-dev \
-libjpeg62-turbo-dev \
-libxslt-dev \
-libicu-dev \
-libmcrypt-dev \
-libxml2-dev \
-libzip-dev \
-libgpgme-dev \
-npm \
-&& docker-php-ext-install -j$(nproc) iconv mysqli pdo_mysql zip \
-&& docker-php-ext-configure gd --with-freetype=/usr/include/ --with-jpeg=/usr/include/ \
-&& docker-php-ext-install -j$(nproc) gd
+# Install node
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash
 
-RUN docker-php-ext-configure intl
-RUN docker-php-ext-install intl
-RUN docker-php-ext-install xsl
-RUN docker-php-ext-install soap
-RUN pecl install gnupg \
-&& docker-php-ext-enable gnupg
+# Install dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget \
+    unzip \
+    libfreetype6-dev \
+    libjpeg62-turbo-dev \
+    libpng-dev \
+    libyaml-dev \
+    libzip4 \
+    libzip-dev \
+    zlib1g-dev \
+    libicu-dev \
+    g++ \
+    git \
+    cron \
+    nano \
+    nodejs \
+    && docker-php-ext-install opcache \
+    && docker-php-ext-configure intl \
+    && docker-php-ext-install intl \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install -j$(nproc) gd \
+    && docker-php-ext-install zip \
+    && rm -rf /var/lib/apt/lists/*
 
-RUN docker-php-ext-configure sockets
-RUN docker-php-ext-install sockets
-
-RUN apt-get install -y \
-    libmagickwand-dev --no-install-recommends \
-    && pecl install imagick
+RUN pecl install apcu \
+    && pecl install yaml \
+    && docker-php-ext-enable apcu yaml
 
 ADD php.ini /usr/local/etc/php/php.ini
 
 RUN wget https://getcomposer.org/installer -O - -q \
     | php -- --install-dir=/bin --filename=composer --quiet
-
-RUN mkdir -p /var/www/.config
-RUN chmod 777 /var/www/.config
 
 WORKDIR /code
 

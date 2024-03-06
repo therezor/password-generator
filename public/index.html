@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="The Best Memorable Password Generator ever that is completely free. Easily create secure, unique and strong passwords in no time.">
+    <title>🔐 The Best Memorable Password Generator ever!</title>
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippets:8, max-image-preview:large, max-video-preview:-1">
+    <meta name="author" content="Your Name/Company Name">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="🔐 The Best Memorable Password Generator ever!">
+    <meta property="og:description" content="The Best Memorable Password Generator ever that is completely free. Easily create secure, unique and strong passwords in no time.">
+    <meta property="og:url" content="https://memorablepasswordgenerator.com">
+    <meta property="og:site_name" content="Memorable Password Generator">
+    <meta property="og:image" content="https://memorablepasswordgenerator.com/img/memorable-password-generator.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="The Best Memorable Password Generator ever that is completely free. Easily create secure, unique and strong passwords in no time.">
+    <meta name="twitter:title" content="🔐 The Best Memorable Password Generator ever!">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="main.js"></script>
+</head>
+<body>
+<main class="container">
+    <section class="hero">
+        <h1>Memorable Password Generator</h1>
+        <form onsubmit="generateAndDisplayPassword();return false;">
+            <article>
+                <fieldset role="group">
+                    <input id="generated" type="text" placeholder="Generate password...">
+                    <button class="copy-button contrast" title="Copy" onclick="copyPassword();return false;">
+                        <svg class="" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+                             fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z"/>
+                            <rect x="8" y="8" width="12" height="12" rx="2"/>
+                            <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"/>
+                        </svg>
+                    </button>
+                </fieldset>
+
+                <button type="submit">Generate password</button>
+
+
+                <footer>
+                    <h3>Password settings</h3>
+
+                    <div class="grid">
+                        <fieldset>
+                            <label for="words">Word count</label>
+                            <input id="words" name="words" type="range" min="3" max="10" step="1" value="4">
+                        </fieldset>
+                        <fieldset>
+                            <label for="separator">Separator</label>
+                            <select id="separator" name="separator">
+                                <option value=""></option>
+                                <option value="-" selected>-</option>
+                                <option value=",">,</option>
+                                <option value=".">.</option>
+                                <option value="|">|</option>
+                                <option value="+">+</option>
+                                <option value="@">@</option>
+                                <option value="!">!</option>
+                            </select>
+                        </fieldset>
+
+                        <fieldset class="check-options">
+                            <legend>Options</legend>
+                            <label>
+                                <input type="checkbox" id="caps" checked>
+                                Capitalize
+                            </label>
+                            <label>
+                                <input type="checkbox" id="numbers" checked>
+                                Numbers
+                            </label>
+                        </fieldset>
+                    </div>
+                </footer>
+            </article>
+        </form>
+    </section>
+
+    <section class="features">
+        <hgroup>
+            <h2>The most secure password generator that are memorable</h2>
+            <p>
+                Everyone knows they should use strong and unique passwords, but it's tough to memorize them all.
+                Memorable password generator lets you easily create secure, unique and strong passwords for each site.
+            </p>
+        </hgroup>
+
+        <div class="grid">
+            <article>
+                <header>
+                    <h3>Strong and Secure Algorithm</h3>
+                </header>
+
+                <p>
+                    If you are someone who has trouble coming up with passwords that are both strong and easy to
+                    remember, then the Memorable Password Generator is the perfect solution for you. This tool creates
+                    passwords that are both random and complex, making them difficult to guess or hack. Simply enter the
+                    desired word count, letters, numbers, and symbols you need, and then it will do the rest.
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>
+                        Easy to Remember
+                    </h3>
+                </header>
+                <p>
+                    When it comes to creating passwords, most people opt for something that is easy to remember.
+                    However, these passwords are often not very secure. A better option is to use a memorable password
+                    generator. This will create a password that is both easy to remember and more secure than a regular
+                    random character set.
+                </p>
+            </article>
+        </div>
+        <div class="grid">
+            <article>
+                <header>
+                    <h3>
+                        Fit Anywhere
+                    </h3>
+                </header>
+                <p>
+                    The password generator is a tool that helps create strong, unique passwords for different websites,
+                    applications, and devices. Some people use the same password for everything, which is not secure. If
+                    one account is hacked, all the others are vulnerable as well. By using unique passwords for every
+                    device and application you have you can mitigate the chance of being hacked.
+                </p>
+            </article>
+            <article>
+                <header>
+                    <h3>
+                        Strong Secure Random
+                    </h3>
+                </header>
+                <p>
+                    Our password generator generates long, random passwords that are difficult to crack.
+                </p>
+                <ol>
+                    <li>Generated passwords are never saved</li>
+                    <li>An infinite amount of time would be required for someone to break your password</li>
+                </ol>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="privacy">
+        <hgroup>
+            <h2>We Respect Your Privacy</h2>
+            <p>
+                At Memorable Password Generator, we respect your privacy. We understand that you may have concerns
+                about
+                how your personal information is used and shared, and we are committed to protecting your privacy.
+            </p>
+        </hgroup>
+
+        <p>
+            Here are some of the ways we respect your privacy:
+        </p>
+        <ul>
+            <li>
+                The password is random and never saved by the tool, so if the password is not copied or saved by
+                you
+                it can not be recovered
+            </li>
+            <li>
+                None of the information you input is gathered
+            </li>
+            <li>
+                We do not use cookies on this website
+            </li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <hgroup>
+            <h2>Frequently Asked Questions</h2>
+        </hgroup>
+        <details>
+            <summary>
+                Why Should I Use Memorable Password Generator?
+            </summary>
+            <p>
+                The Memorable Password Generator website is here to help you create strong, memorable passwords! No more
+                worries about forgetting your login information - this site will make sure you have a password that's
+                both easy to remember and difficult to crack. The site offers a variety of features that make it easy
+                for users to create unique passwords that will be difficult for hackers to guess. You can choose from a
+                variety of different characters and symbols to create a password that's totally secure.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                How does the Memorable Password Generator Work?
+            </summary>
+            <p>
+                When you visit the Memorable Password Generator website, you'll see a simple form. To create a password,
+                all you need to do is enter a few pieces of information. First, choose how long you want your password
+                to be. Then, select which characters you want to use in your password. You can choose from lowercase
+                letters, uppercase letters, numbers, and special characters. Finally, click the "Generate Password"
+                button.
+                <br>
+                Once you've clicked the button, a random password will be generated for you. This password will be made
+                up of the characters that you selected. If you're happy with the password, simply copy it and paste it
+                into whatever text field you need it for. If not, just click the "Generate Password" button again and a
+                new password will be created.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                Can I use this tool only on the web browser?
+            </summary>
+            <p>
+                The tool is designed to work on the web browser and doesn’t require any installation. You can generate
+                passwords on any device with a web browser including your computer, phone, or tablet.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                What are the Password Security Risks to a Business or Corporation?
+            </summary>
+            <p>
+                According to a recent study, nearly 60% of corporate users have easy-to-guess passwords. This is a
+                serious security risk for companies, as easy passwords can be easily guessed by hackers.
+                <br>
+                There are a few reasons why corporate users might have easy passwords. First, many people simply choose
+                passwords that are easy to remember, without thinking about the security risks.
+                <br>
+                This is a serious problem because it means that hackers can easily gain access to corporate networks.
+                Once they're in, they can wreak havoc on the system, stealing sensitive data or planting malware.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                Is Memorable Password Generator Free?
+            </summary>
+            <p>
+                The Password Generator is completely free. And if you need more than one, it can generate as many as you
+                like for all your devices and online applications.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                How many passwords can I generate?
+            </summary>
+            <p>
+                You can generate as many passwords as you want with this tool. There is no limit to the number of
+                passwords that you can create. This tool can help you create strong, unique passwords that are difficult
+                to guess.
+            </p>
+        </details>
+
+
+        <details>
+            <summary>
+                How can I check the strength of my passwords?
+            </summary>
+            <p>
+                To check the strength of your passwords and ensure they meet the necessary security requirements,
+                you can use the <a href="https://sitescan.pro/tools/password-strength-checker" target="_blank">Password
+                Strength Checker tool</a>.
+                This tool analyzes your password based on various criteria such as length, complexity, and uniqueness.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                How can I regain access to my WordPress website?
+            </summary>
+            <p>
+                If you find yourself locked out of your WordPress account because you forgot your password,
+                you can use the <a href="https://sitescan.pro/tools/wordpress-password-generator" target="_blank">WordPress
+                Password Generator</a> to create a new password.
+            </p>
+        </details>
+
+        <details>
+            <summary>
+                How can I generate a regular password?
+            </summary>
+            <p>
+                You can generate a regular password using the <a href="https://sitescan.pro/tools/password-generator"
+                                                                 target="_blank">Password Generator</a> tool.
+            </p>
+        </details>
+    </section>
+</main>
+
+<footer class="container footer">
+    <hr>
+    <small>
+        Memorable password generator © 2022
+    </small>
+</footer>
+</body>
+</html>
