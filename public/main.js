@@ -46,14 +46,14 @@ function capitalize(word) {
 
 async function generateAndDisplayPassword() {
     try {
-        const dictionary = await fetchDictionary('dictionaries/corncob_lowercase.txt');
+        const dictionary = await fetchDictionary('/dictionaries/corncob_lowercase.txt');
 console.log(dictionary);
         const words = parseInt(document.getElementById('words').value);
         const separator = document.getElementById('separator').value;
         const caps = document.getElementById('caps').checked;
         const numbers = document.getElementById('numbers').checked;
 
-        document.getElementById('generated').value = generatePassword(dictionary.split('\n'), words, separator, caps, numbers);;
+        document.getElementById('generated').value = generatePassword(dictionary.split('\n'), words, separator, caps, numbers);
     } catch (error) {
         console.error(error);
     }
