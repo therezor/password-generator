@@ -1,2 +1,13 @@
+# Dependencies
+/node_modules
 /vendor
+
+# Build output
+/public/css/main.css.map
+
+# Editors
 .idea
+.vscode
+
+# OS
+.DS_Store
