@@ -1,15 +1,15 @@
 {
   "dependencies": {
     "@picocss/pico": "^2.1.1",
-    "autoprefixer": "^10.5.4",
-    "postcss": "^8.5.26",
-    "postcss-cli": "^11.0.1",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.28",
+    "postcss-cli": "^12.0.0",
     "postcss-scss": "^4.0.9"
   },
   "scripts": {
     "build": "npx sass --style=compressed --load-path=node_modules css/main.scss public/css/main.css"
   },
   "devDependencies": {
-    "sass": "^1.102.0"
+    "sass": "^1.105.1"
   }
 }
